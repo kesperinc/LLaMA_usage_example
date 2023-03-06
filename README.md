@@ -1,7 +1,6 @@
 # LLaMA - Single End-to-End Repository
 
-![334279051_1245092903090301_3012141696113964993_n](https://user-images.githubusercontent.com/69115576/223224900-d392f2e2-5100-4914-8eb3-f6a878ab524e.jpg)
-
+<img width="858" alt="2023-03-07 054930" src="https://user-images.githubusercontent.com/69115576/223227486-b05d35db-f381-476a-b182-6263cfa887af.png">
 
 OS: Windows 11 Home 22H2 22621.1265
 
