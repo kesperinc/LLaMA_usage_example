@@ -4,7 +4,7 @@
 
 OS: Windows 11 Home 22H2 22621.1265
 
-Graphics card: NVIDIA RTX 3090FE 24GB, RTX 4090 FE 24GB
+Graphics card: NVIDIA RTX 3090 FE 24GB, RTX 4090 FE 24GB
 
 This repository is a standalone solution for running the LLaMA model with huggingface interface using the public weights.
 
