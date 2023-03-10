@@ -2,9 +2,10 @@
 import llama
 
 MODEL = 'decapoda-research/llama-7b-hf'
+REVISION = '84fd0de2f666324fe13da5642b047be4d55b5982'
 
-tokenizer = llama.LLaMATokenizer.from_pretrained(MODEL)
-model = llama.LLaMAForCausalLM.from_pretrained(MODEL, low_cpu_mem_usage = True).half()
+tokenizer = llama.LLaMATokenizer.from_pretrained(MODEL, revision=REVISION)
+model = llama.LLaMAForCausalLM.from_pretrained(MODEL, low_cpu_mem_usage = True, revision=REVISION).half()
 model.to('cuda')
 
 prompt = """Tweet: "I hate it when my phone battery dies."
